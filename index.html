@@ -183,11 +183,15 @@ footer{text-align:center;padding:2rem;opacity:.7}
     I respond quickly.
   </p>
 
-  <form action="https://formsubmit.co/ivymendoza@gmail.com" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="How can I help you?" required></textarea>
-    <button type="submit">📩 Send Message</button>
+ <form action="https://formsubmit.co/ivymendoza@gmail.com" method="POST">
+
+  <input type="hidden" name="_next" value="https://ivymendoza.github.io">
+  <input type="hidden" name="_captcha" value="false">
+
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="How can I help you?" required></textarea>
+  <button type="submit">📩 Send Message</button>
   </form>
   <input type="hidden" name="_next" value="https://ivymendoza.github.io">
 </section>
